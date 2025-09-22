@@ -1,14 +1,10 @@
-# Book Recommender: Chatbot-based retrieval system.
+# (In-Progress) Book Recommender: Document retrieval system.
 Creating a retrieval system that finds top-n matching books to user's query using book properties (including summary embeddings) and a chat-based model.
 
 #### Overview
 
-## Major libraries used:
+## Major libraries/frameworks used:
 * [NLTK](https://www.nltk.org/) & [langdetect](https://github.com/shuyo/language-detection) for text cleaning.
 * [Transformers](https://pypi.org/project/transformers/) for [HuggingFace](https://huggingface.co/), LLMs, and tokenizers.
 * [Pinecone](https://www.pinecone.io/product/) for the vector database.
 * [Langchain](https://python.langchain.com/docs/introduction/) for RAG.
-
-## Requirements: 
-* Pinecone API key to set up a private vectorstore.
-* The [CMU book summary data set](https://www.kaggle.com/datasets/ymaricar/cmu-book-summary-dataset).
